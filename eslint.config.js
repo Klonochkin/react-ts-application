@@ -12,7 +12,7 @@ export default tseslint.config(
             js.configs.recommended,
             ...tseslint.configs.strictTypeChecked,
         ],
-        files: ['**/*.{ts,tsx}'],
+        files: ['/*.{ts,tsx}'],
         languageOptions: {
             ecmaVersion: 2020,
             globals: globals.browser,

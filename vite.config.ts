@@ -7,6 +7,7 @@ import browserslistToEsbuild from 'browserslist-to-esbuild'
 export default defineConfig({
     plugins: [react()],
     base: './',
+    root: './src',
     build:{
         target: browserslistToEsbuild(),
         cssTarget: browserslistToEsbuild()
