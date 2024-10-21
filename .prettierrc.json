@@ -3,6 +3,5 @@
     "jsxSingleQuote": true,
     "bracketSameLine": true,
     "endOfLine": "lf",
-    "plugins": ["prettier-plugin-tailwindcss"],
     "tailwindFunctions": ["cn"]
 }

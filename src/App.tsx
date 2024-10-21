@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import PropTypes from 'prop-types';
 import './App.css';
 
 interface SquareProps {
@@ -14,11 +13,6 @@ function Square({ value, click }: SquareProps) {
         </button>
     );
 }
-
-Square.propTypes = {
-    value: PropTypes.string.isRequired,
-    click: PropTypes.func.isRequired,
-};
 
 function App() {
     const [isNextX, setIsNextX] = useState(true);
